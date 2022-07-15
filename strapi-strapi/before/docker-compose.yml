@@ -1,6 +1,7 @@
 # Refer to 
 # * https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/installation/docker.html#creating-a-strapi-project
 version: '3'
+name: strapi-strapi # add by same.js
 services:
   strapi:
     image: strapi/strapi
